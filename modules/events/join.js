@@ -14,7 +14,7 @@ module.exports.run = async function({ api, event }) {
 	const { threadID } = event;
 	if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
 		api.changeNickname(`[ ${global.config.PREFIX} ] • ${(!global.config.BOTNAME) ? "BOT Của Yang đẹp trai" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
-		return api.sendMessage(`TRƯỜNG GIANG BOT Connected successfully! \nCảm ơn bạn đã sử dụng con bot này, chúc bạn sử dụng vui vẻ UwU <3`, threadID);
+		return api.sendMessage(`BẢO HUY BOT\nConnected successfully! \nCảm ơn bạn đã sử dụng con bot này, chúc bạn sử dụng vui vẻ!! <3`, threadID);
 	}
 	else {
 		try {
