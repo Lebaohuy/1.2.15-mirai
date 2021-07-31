@@ -13,9 +13,6 @@ module.exports.run = async function({ api, event, args, Users, Threads, Currenci
         const axios = global.nodemodule["axios"];
         const fs = global.nodemodule["fs-extra"];
         var data = await Currencies.getData(event.senderID);
-        var money = data.money
-        if(money < 500) api.sendMessage("Bạn cần 500 đô cho 1 lần ghép hãy tích cực làm việc hoặc xin admin bot!\n🤑Có làm mới có ăn🤑",event.threadID,event.messageID)
-        else {
         var tl = ['21%', '67%', '19%', '37%', '17%', '96%', '52%', '62%', '76%', '83%', '100%', '99%', "0%", "48%"];
         var tle = tl[Math.floor(Math.random() * tl.length)];
         let dataa = await api.getUserInfo(event.senderID);
