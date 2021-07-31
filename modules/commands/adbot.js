@@ -17,16 +17,16 @@ module.exports.config = {
 module.exports.run = async({api,event,args,Users,global,Currencies}) => {
 var callback = () => api.sendMessage(
   {body:`梁ADMIN BOT梁\n
-  \n👀 Tên: Hà Mạc Trường Giang ( HelyT )
-  \n❎ Tuổi: 21
+  \n👀 Tên: LÊ BẢO HUY (ERICK)
+  \n❎ Tuổi: 16
   \n👤 😶 Giới tính: Nam
-  \n💫 Chiều cao cân nặng: 1m83 58 kg
-  \n💘 Mối quan hệ: Độc thân
-  \n😎 Quê quán: Cao Bằng
-  \n🤔 Nơi ở: Hà Nội
-  \n👫 Gu: Giọng nói :<
+  \n💫 Chiều cao cân nặng: 1m65 50kg
+  \n💘 Mối quan hệ: Hẹn hò
+  \n😎 Quê quán: Bảo Lộc
+  \n🤔 Nơi ở: Bảo Lộc
+  \n👫 Gu: Con gái là được :)))
   \n🌸 Tính cách: Là một con người Fboiz nhưng khi yêu xong rất là tềnh cảm :3
-  \n👉 Profile: https://truonggiangprocoder.github.io/profile/index.html`,
+};
     attachment: fs.createReadStream(__dirname + "/cache/1.png")}, event.threadID, () => 
     fs.unlinkSync(__dirname + "/cache/1.png"));  
       return request(
