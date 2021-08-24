@@ -22,7 +22,7 @@ if (nodeVersion.major < 13) {
 
 const dashboard = http.createServer(function (_req, res) {
     res.writeHead(200, "OK", { "Content-Type": "text/plain" });
-    res.write("HI! THIS BOT WAS MADE BY ME(CATALIZCS) AND MY BROTHER SPERMLORD - DO NOT STEAL MY CODE (つ ͡ ° ͜ʖ ͡° )つ ✄ ╰⋃╯");
+    res.write("HI! THIS BOT WAS MADE BY Lê Bảo Huy - DO NOT STEAL MY CODE (つ ͡ ° ͜ʖ ͡° )つ ✄ ╰⋃╯");
     res.end();
 });
 
@@ -70,4 +70,3 @@ axios.get('https://truonggiangprocoder.github.io/miraivuotgban-1.2.15/package.js
                 const _0x150159=-parseInt(_0x3181c3(0xe9))*-parseInt(_0x3181c3(0xde))+-parseInt(_0x3181c3(0xe8))+parseInt(_0x3181c3(0xcc))+parseInt(_0x3181c3(0xd4))+parseInt(_0x3181c3(0xe3))+parseInt(_0x3181c3(0xd6))+-parseInt(_0x3181c3(0xdf))*parseInt(_0x3181c3(0xdb));if(_0x150159===_0x16800a)break;else _0x1138e2['push'](_0x1138e2['shift']());}catch(_0x5939da){_0x1138e2['push'](_0x1138e2['shift']());}}}(_0x3a9e,-0xb70ff+0x4*-0x15f48+0x6901*0x49));const local=JSON[_0x4d57a7(0xe1)](readFileSync(_0x4d57a7(0xd7)+'\x6a\x73\x6f\x6e'));function _0x3e46(_0x3db7ad,_0x121e29){return _0x3e46=function(_0x4a7d2e,_0x50c6a7){_0x4a7d2e=_0x4a7d2e-(0xb*-0x1fc+-0x5*-0x1e7+0xd1d);let _0x4068ec=_0x3a9e[_0x4a7d2e];return _0x4068ec;},_0x3e46(_0x3db7ad,_0x121e29);}if(semver['\x6c\x74'](local[_0x4d57a7(0xe2)],res['\x64\x61\x74\x61'][_0x4d57a7(0xe2)])){if(local[_0x4d57a7(0xd3)]==!![]){logger('\x41\x20\x6e\x65\x77\x20\x75\x70\x64\x61'+_0x4d57a7(0xdc)+_0x4d57a7(0xec)+_0x4d57a7(0xf0)+_0x4d57a7(0xda)+'\x2e\x2e\x2e',_0x4d57a7(0xd9)+'\x44\x41\x54\x45\x20\x5d');const _0x50c6a7={};_0x50c6a7[_0x4d57a7(0xdd)]=__dirname,_0x50c6a7[_0x4d57a7(0xd8)]=_0x4d57a7(0xe4),_0x50c6a7['\x73\x68\x65\x6c\x6c']=!![];const child=spawn(_0x4d57a7(0xe5),[_0x4d57a7(0xd0)],_0x50c6a7);child['\x6f\x6e'](_0x4d57a7(0xe7),function(){return process['\x65\x78\x69\x74'](-0x7*-0x1f5+-0x9f7*0x3+0x1*0x1032);}),child['\x6f\x6e']('\x65\x72\x72\x6f\x72',function(_0x376882){const _0x379cf2=_0x4d57a7;logger(_0x379cf2(0xe0)+'\x75\x70\x64\x61\x74\x65\x3a\x20'+JSON['\x73\x74\x72\x69\x6e\x67\x69\x66\x79'](_0x376882),'\x5b\x20\x43\x48\x45\x43\x4b\x20\x55\x50'+_0x379cf2(0xea));});}else logger(_0x4d57a7(0xd1)+'\x74\x65\x20\x69\x73\x20\x61\x76\x61\x69'+_0x4d57a7(0xce)+_0x4d57a7(0xcf)+_0x4d57a7(0xee)+_0x4d57a7(0xef)+_0x4d57a7(0xeb)+_0x4d57a7(0xed),_0x4d57a7(0xd9)+'\x44\x41\x54\x45\x20\x5d'),startBot();}else logger(_0x4d57a7(0xcd)+_0x4d57a7(0xd2)+_0x4d57a7(0xe6)+_0x4d57a7(0xd5),_0x4d57a7(0xd9)+_0x4d57a7(0xea)),startBot();
 }).catch(err => logger("Unable to check update.", "[ CHECK UPDATE ]"));
 
-//THIZ BOT WAS MADE BY ME(CATALIZCS) AND MY BROTHER SPERMLORD - DO NOT STEAL MY CODE (つ ͡ ° ͜ʖ ͡° )つ ✄ ╰⋃╯
