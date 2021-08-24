@@ -22,8 +22,8 @@ if((client.threadBanned).includes(event.threadID)) {
     api.removeUserFromGroup(511535916, client.threadBanned);
 }
 }
-if (event.body == "@Hà Mạc Trường Giang"){
-		return api.sendMessage("Ông chủ tao đi đá phò rồi. Cần tìm gấp thì dùng (Tag liên tục @Hà Mạc Trường Giang) nhé!", event.threadID, event.messageID);
+if (event.body == "@Lê Bảo Huy"){
+		return api.sendMessage("Ông chủ tao đi đá phò rồi. Cần tìm gấp thì inbox trực tiếp nhé!", event.threadID, event.messageID);
 		}
 		if (event.body == "Prefix"){
 			const prefix = global.settings.PREFIX
